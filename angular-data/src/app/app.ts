@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { HelloWorld } from './hello-world/hello-world';
-import { UserItem } from './user-item/user-item';
+import { UserList } from './user-list/user-list';
 
 @Component({
-  imports: [HelloWorld,UserItem],
+  imports: [HelloWorld,UserList],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
